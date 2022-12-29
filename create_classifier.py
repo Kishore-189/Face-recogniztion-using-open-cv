@@ -4,7 +4,7 @@ import os, cv2
 
 
 
-# Method to train custom classifier to recognize face
+
 def train_classifer(name):
     # Read all the images in custom data-set
     path = os.path.join(os.getcwd()+"/data/"+name+"/")
